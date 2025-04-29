@@ -4,24 +4,32 @@ O aplicativo para iOS Mood Detector foi criado com o intuito de aprender a trein
 
 ## Tela Inicial
 Página Inicial, onde o usuário pode descrevar a emoção sentida:
-![homepage](https://github.com/)
+
+![homepage](Assets/Menu.PNG)
 
 ## Conselhos
 Exibição dos conselhos, recebidos após a analise de nosso Modelo de Machine Learning
+
 ### Tristeza
-![homepage](https://github.com/)
+
+![Tristeza](Assets/Tristeza.PNG)
 
 ### Amor
-![homepage](https://github.com/)
+
+![Amor](Assets/Amor.PNG)
 
 ### Medo
-![homepage](https://github.com/)
+
+![Medo](Assets/Medo.PNG) 
 
 ### Surpresa
-![homepage](https://github.com/)
+
+![Surpresa](Assets/Surpresa.PNG) 
 
 ### Raiva
-![homepage](https://github.com/)
+
+![Raiva](Assets/Raiva.PNG) 
 
 ### Felicidade
-![homepage](https://github.com/)
+
+![Felicidade](Assets/Felicidade.PNG) 
