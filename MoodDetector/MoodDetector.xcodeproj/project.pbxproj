@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		556433CE2DBC219C0074D6C1 /* FeelingClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 556433CD2DBC219C0074D6C1 /* FeelingClassifier.mlmodel */; };
+		557998892DC01484007DED2D /* Conversor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557998882DC01484007DED2D /* Conversor.swift */; };
+		5579988C2DC01594007DED2D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5579988B2DC01594007DED2D /* Roboto-Regular.ttf */; };
+		5579988E2DC016A7007DED2D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5579988D2DC016A7007DED2D /* Roboto-Bold.ttf */; };
+		557998962DC01D18007DED2D /* BackgroundFeeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557998952DC01D18007DED2D /* BackgroundFeeling.swift */; };
+		55D6534A2DBC21E400A4CDF2 /* CoreMLViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D653492DBC21E400A4CDF2 /* CoreMLViewModel.swift */; };
+		55D6534C2DBC271300A4CDF2 /* TextClassifierV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 55D6534B2DBC271300A4CDF2 /* TextClassifierV2.mlmodel */; };
+		55D6534E2DBC27D700A4CDF2 /* Feelings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D6534D2DBC27D700A4CDF2 /* Feelings.swift */; };
+		55FBD7792DBBFC9C001B5B04 /* MoodDetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FBD7782DBBFC9C001B5B04 /* MoodDetectorApp.swift */; };
+		55FBD77B2DBBFC9C001B5B04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FBD77A2DBBFC9C001B5B04 /* ContentView.swift */; };
+		55FBD77D2DBBFC9F001B5B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FBD77C2DBBFC9F001B5B04 /* Assets.xcassets */; };
+		55FBD7802DBBFC9F001B5B04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FBD77F2DBBFC9F001B5B04 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		556433CD2DBC219C0074D6C1 /* FeelingClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FeelingClassifier.mlmodel; sourceTree = "<group>"; };
+		557998882DC01484007DED2D /* Conversor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversor.swift; sourceTree = "<group>"; };
+		5579988A2DC01555007DED2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5579988B2DC01594007DED2D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		5579988D2DC016A7007DED2D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		557998952DC01D18007DED2D /* BackgroundFeeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundFeeling.swift; sourceTree = "<group>"; };
+		55D653492DBC21E400A4CDF2 /* CoreMLViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreMLViewModel.swift; sourceTree = "<group>"; };
+		55D6534B2DBC271300A4CDF2 /* TextClassifierV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TextClassifierV2.mlmodel; sourceTree = "<group>"; };
+		55D6534D2DBC27D700A4CDF2 /* Feelings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feelings.swift; sourceTree = "<group>"; };
+		55FBD7752DBBFC9C001B5B04 /* MoodDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FBD7782DBBFC9C001B5B04 /* MoodDetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDetectorApp.swift; sourceTree = "<group>"; };
+		55FBD77A2DBBFC9C001B5B04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55FBD77C2DBBFC9F001B5B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55FBD77F2DBBFC9F001B5B04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55FBD7722DBBFC9C001B5B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5579988F2DC016EF007DED2D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5579988B2DC01594007DED2D /* Roboto-Regular.ttf */,
+				5579988D2DC016A7007DED2D /* Roboto-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		557998902DC0170F007DED2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				556433CD2DBC219C0074D6C1 /* FeelingClassifier.mlmodel */,
+				55D6534B2DBC271300A4CDF2 /* TextClassifierV2.mlmodel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		557998912DC01727007DED2D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55FBD77A2DBBFC9C001B5B04 /* ContentView.swift */,
+				55D6534D2DBC27D700A4CDF2 /* Feelings.swift */,
+				55D653492DBC21E400A4CDF2 /* CoreMLViewModel.swift */,
+				55FBD7782DBBFC9C001B5B04 /* MoodDetectorApp.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		557998922DC01737007DED2D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5579988F2DC016EF007DED2D /* Fonts */,
+				55FBD77C2DBBFC9F001B5B04 /* Assets.xcassets */,
+				557998952DC01D18007DED2D /* BackgroundFeeling.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		557998932DC01763007DED2D /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				557998942DC0176F007DED2D /* Conversor */,
+				557998912DC01727007DED2D /* View */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
+		557998942DC0176F007DED2D /* Conversor */ = {
+			isa = PBXGroup;
+			children = (
+				557998882DC01484007DED2D /* Conversor.swift */,
+			);
+			path = Conversor;
+			sourceTree = "<group>";
+		};
+		55FBD76C2DBBFC9C001B5B04 = {
+			isa = PBXGroup;
+			children = (
+				55FBD7772DBBFC9C001B5B04 /* MoodDetector */,
+				55FBD7762DBBFC9C001B5B04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55FBD7762DBBFC9C001B5B04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55FBD7752DBBFC9C001B5B04 /* MoodDetector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55FBD7772DBBFC9C001B5B04 /* MoodDetector */ = {
+			isa = PBXGroup;
+			children = (
+				557998932DC01763007DED2D /* APP */,
+				557998922DC01737007DED2D /* Assets */,
+				557998902DC0170F007DED2D /* Models */,
+				5579988A2DC01555007DED2D /* Info.plist */,
+				55FBD77E2DBBFC9F001B5B04 /* Preview Content */,
+			);
+			path = MoodDetector;
+			sourceTree = "<group>";
+		};
+		55FBD77E2DBBFC9F001B5B04 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55FBD77F2DBBFC9F001B5B04 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55FBD7742DBBFC9C001B5B04 /* MoodDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FBD7832DBBFC9F001B5B04 /* Build configuration list for PBXNativeTarget "MoodDetector" */;
+			buildPhases = (
+				55FBD7712DBBFC9C001B5B04 /* Sources */,
+				55FBD7722DBBFC9C001B5B04 /* Frameworks */,
+				55FBD7732DBBFC9C001B5B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoodDetector;
+			productName = MoodDetector;
+			productReference = 55FBD7752DBBFC9C001B5B04 /* MoodDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55FBD76D2DBBFC9C001B5B04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					55FBD7742DBBFC9C001B5B04 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 55FBD7702DBBFC9C001B5B04 /* Build configuration list for PBXProject "MoodDetector" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55FBD76C2DBBFC9C001B5B04;
+			productRefGroup = 55FBD7762DBBFC9C001B5B04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55FBD7742DBBFC9C001B5B04 /* MoodDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55FBD7732DBBFC9C001B5B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5579988C2DC01594007DED2D /* Roboto-Regular.ttf in Resources */,
+				55FBD7802DBBFC9F001B5B04 /* Preview Assets.xcassets in Resources */,
+				5579988E2DC016A7007DED2D /* Roboto-Bold.ttf in Resources */,
+				55FBD77D2DBBFC9F001B5B04 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55FBD7712DBBFC9C001B5B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557998892DC01484007DED2D /* Conversor.swift in Sources */,
+				556433CE2DBC219C0074D6C1 /* FeelingClassifier.mlmodel in Sources */,
+				55D6534C2DBC271300A4CDF2 /* TextClassifierV2.mlmodel in Sources */,
+				557998962DC01D18007DED2D /* BackgroundFeeling.swift in Sources */,
+				55FBD77B2DBBFC9C001B5B04 /* ContentView.swift in Sources */,
+				55D6534E2DBC27D700A4CDF2 /* Feelings.swift in Sources */,
+				55D6534A2DBC21E400A4CDF2 /* CoreMLViewModel.swift in Sources */,
+				55FBD7792DBBFC9C001B5B04 /* MoodDetectorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55FBD7812DBBFC9F001B5B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55FBD7822DBBFC9F001B5B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55FBD7842DBBFC9F001B5B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoodDetector/Preview Content\"";
+				DEVELOPMENT_TEAM = F3W4MZ6T78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoodDetector/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ana-Sodre-.MoodDetector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55FBD7852DBBFC9F001B5B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoodDetector/Preview Content\"";
+				DEVELOPMENT_TEAM = F3W4MZ6T78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoodDetector/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ana-Sodre-.MoodDetector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55FBD7702DBBFC9C001B5B04 /* Build configuration list for PBXProject "MoodDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FBD7812DBBFC9F001B5B04 /* Debug */,
+				55FBD7822DBBFC9F001B5B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55FBD7832DBBFC9F001B5B04 /* Build configuration list for PBXNativeTarget "MoodDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FBD7842DBBFC9F001B5B04 /* Debug */,
+				55FBD7852DBBFC9F001B5B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55FBD76D2DBBFC9C001B5B04 /* Project object */;
+}
